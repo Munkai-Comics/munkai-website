@@ -243,7 +243,6 @@ a {
   transition: max-height 0.5s ease;
 }
 .tokens {
-  margin-top: 30px;
   justify-content: space-between;
 }
 .token-box {
