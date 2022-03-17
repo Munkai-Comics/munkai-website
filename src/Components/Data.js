@@ -11,7 +11,7 @@ export const data2022 = [
 
   {
     title: "QUARTER 2",
-    duration: "Apr-Mar",
+    duration: "Apr-Jun",
     lists: [
       "Airdrop Campaign",
       "Listing",
@@ -22,7 +22,7 @@ export const data2022 = [
   },
   {
     title: "QUARTER 3",
-    duration: "Jun-July",
+    duration: "Jul-Sept",
     lists: [
       "Partnership with Open sea",
       "NFT Marketplace",
@@ -34,7 +34,7 @@ export const data2022 = [
 
   {
     title: "QUARTER 4",
-    duration: "Sept-Dec",
+    duration: "Oct-Dec",
     lists: [
       "Coin Market Cap And Coin Gecko Listing",
       "Listing on Cex",
@@ -54,7 +54,7 @@ export const data2023 = [
 
   {
     title: "QUARTER 2",
-    duration: "Jan-Mar",
+    duration: "Apr-Jun",
     lists: [
       "Unboarding of New Artists",
       "Partnership",
@@ -65,7 +65,7 @@ export const data2023 = [
   },
   {
     title: "QUARTER 3",
-    duration: "Jan-Mar",
+    duration: "Jul-Sept",
     lists: [
       "Ecosystem Expansion",
       "Further Development",
@@ -76,7 +76,7 @@ export const data2023 = [
 
   {
     title: "QUARTER 4",
-    duration: "Jan-Mar",
+    duration: "Oct-Dec",
     lists: [
       "Further Developement",
       "Smartphone App Bug fixes (If Any)",
