@@ -127,7 +127,7 @@ a {
 .about-video {
   width: 60%;
   display: block;
-  margin: 80px auto 0;
+  margin: 10px auto 0;
 }
 .body-content {
   width: 100%;
@@ -144,6 +144,7 @@ a {
   display: inline-block;
   z-index: 9;
   color: var(--yellow);
+  margin-bottom: 100px;
 }
 .top-title::after {
   position: absolute;
@@ -175,6 +176,7 @@ a {
 }
 .panel-list-box {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .panel-list-title {
   justify-content: space-between;
