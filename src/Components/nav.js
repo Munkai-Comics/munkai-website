@@ -37,6 +37,8 @@ function Nav() {
 
       <a
         className="nav-link nav-link-btn"
+        target="_blank"
+        rel="noreferrer"
         href="https://app-munkai.netlify.app"
       >
         Launch App
