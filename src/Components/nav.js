@@ -35,7 +35,10 @@ function Nav() {
         </ul>
       )}
 
-      <a className="nav-link nav-link-btn" href="/">
+      <a
+        className="nav-link nav-link-btn"
+        href="https://app-munkai.netlify.app"
+      >
         Launch App
       </a>
     </div>
