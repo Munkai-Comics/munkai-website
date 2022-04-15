@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/Monkai-logo.svg";
+import logo from "../images/munkai-logo.png";
 import Nav from "./nav.js";
 
 function Header() {
