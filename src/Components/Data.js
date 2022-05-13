@@ -4,8 +4,8 @@ export const data2022 = [
     duration: "Jan-Mar",
     lists: [
       "Settings up of Social Media Platform",
-      "Launch Website",
-      "Public Sale",
+      "App Development",
+      "App Testing",
     ],
   },
 
@@ -14,8 +14,8 @@ export const data2022 = [
     duration: "Apr-Jun",
     lists: [
       "Airdrop Campaign",
-      "Listing",
-      "Comic Web App",
+      "Pre-sale",
+      "Launch",
       "Marketing",
       "Token Burn",
     ],

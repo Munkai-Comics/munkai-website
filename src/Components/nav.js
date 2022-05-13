@@ -32,17 +32,22 @@ function Nav() {
               LITEPAPER
             </a>
           </li>
+          <li>
+            <a className="nav-link" href="/terms">
+              TERMS&CONDITIONS
+            </a>
+          </li>
         </ul>
       )}
 
-      <a
+      {/* <a
         className="nav-link nav-link-btn"
         target="_blank"
         rel="noreferrer"
         href="https://app-munkai.netlify.app"
       >
         Launch App
-      </a>
+      </a> */}
     </div>
   );
 }

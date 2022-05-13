@@ -8,7 +8,6 @@
 	.st2{fill:#4FA5D8;}
 	.st3{fill:#FFFFFF;}
 	.st4{display:none;fill:none;}
-	.st5{fill:#F3B31C;}
 </style>
 <title>Monkai Favicon</title>
 <g class="st0">
@@ -27,6 +26,6 @@
 	<polygon class="st4" points="16,19.7 23.1,12.7 23.1,12.6 	"/>
 	<polygon class="st3" points="30.2,2.2 23.4,2.2 16,9.6 8.6,2.2 1.8,2.2 1.8,22.6 8.9,29.7 8.9,12.6 16,19.7 23.1,12.6 23.1,12.7 
 		30.2,5.6 	"/>
-	<polygon class="st5" points="23.1,12.6 23.1,29.7 29.5,22.5 29.5,5.6 	"/>
+	<polygon class="st2" points="23.1,12.6 23.1,29.7 30.2,22.5 30.2,5.6 	"/>
 </g>
 </svg>

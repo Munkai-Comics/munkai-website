@@ -1,24 +1,19 @@
-import Header from "./Components/Header"
-import Banner from "./Components/Banner"
-import About from "./Components/About"
-import Roadmap from "./Components/Roadmap"
-import Tokenomics from "./Components/Tokenomics"
-import Footer from "./Components/Footer"
-
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import { TermsAndConditionsPage } from "./Components/Legal/termsAndConditions";
+import Main from "./Components/main";
 
 function App() {
   return (
-    <div className="App">
-      
-      <Header/>
-      <Banner/>
-      <About/>
-      <Roadmap/>
-      <Tokenomics/>
-      <Footer/>
-      
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path="/" exact component={Main} />
+        <Route path="/terms" component={TermsAndConditionsPage} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
