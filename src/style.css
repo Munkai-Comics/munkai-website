@@ -169,6 +169,10 @@ a {
   padding: 50px 150px;
   height: auto;
 }
+
+.roadmap .top-title {
+  color: var(--light-blue);
+}
 .roadmap-list {
   justify-content: space-between;
   margin-top: 30px;
