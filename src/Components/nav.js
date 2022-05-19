@@ -28,7 +28,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="/litepaper">
               LITEPAPER
             </a>
           </li>
