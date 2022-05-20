@@ -7,10 +7,6 @@
   align-items: center;
 }
 
-.navigation > * {
-
-}
-
 .actions {
     display: flex;
     align-items: center;
