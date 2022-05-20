@@ -1,26 +1,73 @@
 .navigation {
   text-align: center;
   flex-grow: 1;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > * {
+
 }
 
 .actions {
     display: flex;
-    max-width: 800px;
-    margin: 0 auto;
+    align-items: center;
+    max-width: calc(min(400px, 100vw) - 2rem * 2);
+    margin: 2rem auto;
     color: var(--dark-blue);
+    line-height: 1;
 }
 
 .actions a {
     color: inherit;
 }
 
+.actions button {
+  border-radius: 10px;
+  background: var(--bg-color);
+  color: var(--light-blue);
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.download {
+  font-size: 24px;
+}
+
+.total_pages {
+  font-size: 150%;
+  vertical-align: bottom;
+  text-anchor: end;
+  /* font-weight: 600; */
+}
+
+.current_page {
+  font-size: 120%;
+}
+
 .viewerContainer {
-  padding: 2rem;
+  padding: 1rem 2rem;
+  padding-top: calc(1rem + var(--header-height));
   width: 100%;
 }
 
 .viewerContainer > canvas {
-  max-width: 800px;
+  max-height: calc(100vh - var(--header-height) - 2rem);
+  box-shadow: 0 2px 8px 2px #ccccccb3;
+  max-width: calc(min(100vw, 800px) - 2rem * 2);
+  width: auto !important;
   margin: 0 auto;
   display: block;
+}
+
+
+@media screen and (max-width: 800px) {
+  .viewerContainer {
+    padding-top: calc(2rem + var(--header-height));
+  }
 }

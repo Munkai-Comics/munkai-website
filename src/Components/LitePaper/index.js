@@ -28,14 +28,20 @@ export function LitePaper() {
           <button onClick={moveToPrevPage}>
             <i className='fa fas fa-chevron-left'></i>
           </button>
-          <span>{currentPage}</span> <span>/</span>{" "}
-          <span>{pdf?.numPages ?? 0}</span>
+          <div>
+            <span className={styles.current_page}>{currentPage}</span>
+            {/* <span>/</span> */}
+            <span className={styles.total_pages}>/{pdf?.numPages ?? 0}</span>
+          </div>
           <button onClick={moveToNextPage}>
             <i className='fa fas fa-chevron-right'></i>
           </button>
         </div>
         <div>
-          <a href='/assets/documents/Munkai Litepaper.pdf' download>
+          <a
+            href='/assets/documents/Munkai Litepaper.pdf'
+            download
+            className={styles.download}>
             <i className='fa fa-download'></i>
           </a>
         </div>
