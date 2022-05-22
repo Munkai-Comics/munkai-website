@@ -14,8 +14,10 @@ export function LitePaper() {
   const moveToPrevPage = () =>
     currentPage > 1 && setCurrentPage(currentPage - 1);
   return (
-    <div>
-      <div className={styles.viewerContainer}>
+    <div className={styles.page}>
+      <div
+        style={!pdf ? { height: "90vh" } : undefined}
+        className={styles.viewerContainer}>
         <PdfViewer
           url='/assets/documents/Munkai Litepaper.pdf'
           currentPage={currentPage}
@@ -29,8 +31,7 @@ export function LitePaper() {
             <i className='fa fas fa-chevron-left'></i>
           </button>
           <div>
-            <span className={styles.current_page}>{currentPage}</span>
-            {/* <span>/</span> */}
+            <span className={styles.current_page}>{currentPage}</span>{" "}
             <span className={styles.total_pages}>/{pdf?.numPages ?? 0}</span>
           </div>
           <button onClick={moveToNextPage}>

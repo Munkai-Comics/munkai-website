@@ -7,8 +7,8 @@
   align-items: center;
 }
 
-.navigation > * {
-
+.page {
+  min-height: calc(100vh - var(--header-height) - 100px);
 }
 
 .actions {
