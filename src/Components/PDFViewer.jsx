@@ -50,5 +50,9 @@ export const PdfViewer = ({ url, setPdfRef, pdfRef, currentPage }) => {
     );
   }, [pdfjsLib, setPdfRef, url]);
 
-  return <canvas style={{ width: "100%" }} ref={canvasRef}></canvas>;
+  return pdfRef ? (
+    <canvas style={{ width: "100%" }} ref={canvasRef}></canvas>
+  ) : (
+    <></>
+  );
 };
