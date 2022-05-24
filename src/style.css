@@ -16,6 +16,21 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #c5e0fa;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--light-blue);
+  border-radius: 30px;
 }
 body {
   margin: 0;
