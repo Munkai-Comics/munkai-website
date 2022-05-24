@@ -7,10 +7,12 @@
   align-items: center;
 }
 
+ litepaper
 .page {
   min-height: calc(100vh - var(--header-height) - 100px);
 }
 
+main
 .actions {
     display: flex;
     align-items: center;

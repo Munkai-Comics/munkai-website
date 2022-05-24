@@ -19,7 +19,7 @@ export function LitePaper() {
         style={!pdf ? { height: "90vh" } : undefined}
         className={styles.viewerContainer}>
         <PdfViewer
-          url='/assets/documents/Munkai Litepaper.pdf'
+          url="/assets/documents/Munkai Litepaper.pdf"
           currentPage={currentPage}
           pdfRef={pdf}
           setPdfRef={setPdf}
@@ -28,22 +28,23 @@ export function LitePaper() {
       <div className={styles.actions}>
         <div className={styles.navigation}>
           <button onClick={moveToPrevPage}>
-            <i className='fa fas fa-chevron-left'></i>
+            <i className="fa fas fa-chevron-left"></i>
           </button>
           <div>
             <span className={styles.current_page}>{currentPage}</span>{" "}
             <span className={styles.total_pages}>/{pdf?.numPages ?? 0}</span>
           </div>
           <button onClick={moveToNextPage}>
-            <i className='fa fas fa-chevron-right'></i>
+            <i className="fa fas fa-chevron-right"></i>
           </button>
         </div>
         <div>
           <a
-            href='/assets/documents/Munkai Litepaper.pdf'
+            href="/assets/documents/Munkai Litepaper.pdf"
             download
-            className={styles.download}>
-            <i className='fa fa-download'></i>
+            className={styles.download}
+          >
+            <i className="fa fa-download"></i>
           </a>
         </div>
       </div>

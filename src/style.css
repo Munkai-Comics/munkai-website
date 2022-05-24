@@ -77,7 +77,8 @@ a {
 .banner {
   width: 100%;
   height: calc(100vh - 50px);
-  background: url(./images/bg-hero.png) no-repeat bottom right;
+  background: url(./images/bg-hero.png) no-repeat;
+  background-position: center;
   background-size: cover;
   border-radius: 0 0 350px 0;
   padding: 0px 80px 0px 150px;
